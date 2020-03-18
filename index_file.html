@@ -6,7 +6,8 @@
     <meta keywords="ual, mapa, sig, taller, proyecto, qgis, mapbox">
     <meta author="Cristina Loza, Abdo Sabag, Mauricio Esparza, Victor, Felipe Escobedo">
     <title>SIG Taller UAL TRC</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../SIG_UAL-master/css/estilo.css">
+    <link rel="stylesheet" href="../SIG_UAL-master/css/popup.css">
 </head>
 <body>
     <!-- <script src="js/index.js"></script> -->
@@ -14,8 +15,30 @@
     <div class="header">
         <div class="icono"></div>
         <h1>Sistemas de Información Geográfica</h1>
-        <div class="menu">
-            <img src="img/menu_rayas.png" onclick="popup()" class="rayas">
+        <a href="#modal" class="btn-open-popup">
+            <img src="../SIG_UAL-master/Images/menu_rayas.png">
+        </a>
+        <div class="container-all" id="modal">
+            <div class="popup">
+                <div class="container-text">
+                    <h1>Trabajos del Taller</h1>
+                    <h2>MapBox</h2>
+                    <img src="../SIG_UAL-master/Images/mapbox.png">
+                    <p>-Felipe Escobedo Botello</p>
+                    <p>-Carlos Mauricio Esparza Bermúdez</p>
+                    <p>-Victor Ortiz Rios</p>
+                    <p>-Abdo Rassul Sabag Acevedo</p>
+                    <p>-Cristina Loza</p>
+                    <h2>QGIS</h2>
+                    <img src="../SIG_UAL-master/Images/qgis.png" class="q">
+                    <p>-Felipe Escobedo Botello</p>
+                    <p>-Carlos Mauricio Esparza Bermúdez</p>
+                    <p>-Victor Ortiz Rios</p>
+                    <p>-Abdo Rassul Sabag Acevedo</p>
+                    <p>-Cristina Loza</p>   
+                </div>
+                <a href="#" class="btn-close-popup">X</a>
+            </div>
         </div>
     </div>
     <div class="foto"></div>
