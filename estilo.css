@@ -46,10 +46,20 @@ body{
 }
 
 .q{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    left: 270px;
+    top: -50%;
+}
+.m{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 270px;
+    top: -55%;
 }
 
 .container-all{
@@ -101,6 +111,9 @@ body{
 .container-text h2{
     font-size: 30px;
     margin-top: 5%;
+}
+.container-text s{
+    margin-top: -20%;
 }
 
 .container-text h1{
