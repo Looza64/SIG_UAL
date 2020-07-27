@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol3-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <link rel="icon" href="../SIG UAL Mauricio Esparza/iconfinder_JD-19_2246817.png">
+<style>
+.search-layer {
+  top: 65px;
+  left: .5em;
+}
+.ol-touch .search-layer {
+  top: 80px;
+}
+</style>
+        <style>
+        html, body {
+            background-image: url("../landscape.jpg");
+            background-size: cover;
+
+        }
+        .ol-control button {
+            background-color: #2cc721 !important;
+            color: #000000 !important;
+            border-radius: 0px !important;
+        }
+        .ol-zoom, .geolocate, .gcd-gl-control .ol-control {
+            background-color: rgb(255, 255, 255) !important;
+            padding: 3px !important;
+        }
+        .ol-scale-line {
+            background: none !important;
+        }
+        .ol-scale-line-inner {
+            border: 2px solid #d83434 !important;
+            border-top: none !important;
+            background: rgba(177, 79, 79, 0.5) !important;
+            color: black !important;
+        }
+        </style>
+        <style>
+        #map {
+            width: 1110px;
+            height: 437px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 70px;
+            margin-left: 50px;
+            border: solid 5px black;
+        }
+        .textp1{
+            color: rgb(0, 0, 0);
+            font-size: 41px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.62);
+            margin-top: 10px;
+        }
+        .texto{
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            text-align:center ;
+            background-color: rgba(255, 255, 255, 0.613);
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+        .color1{
+            background-color:rgba(255, 255, 255, 0.62);
+            font-size: 20px;
+            text-align: center;
+            color: black;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div class="textp1">Mapa de Sistemas de Informacion Geografica (UAL)</div>
+        <div></div>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <div class="color1">
+            <li>1: Edificio A (Preparatoria)</li>
+            <li>2: Edificio B (Universidad)</li>
+            <li>3: Edificio C (Rectoría)</li>
+            <li>4: Cafetería</li>
+            <li>5: Biblioteca</li>
+            <li>6: Servicios Escolares</li>
+            <li>7: Papelería</li>
+            <li>8: Estadio Pequeño</li>
+            <li>9: C.I.P.</li>
+            <li>10: C.T.A.</li>
+            <li>11: Secundaria</li>
+            <li>12: Cafetería Secundaria</li>
+            <li>13: Gimnasio Auditorio</li>
+            <li>14: Alberca</li>
+            <li>15: Gimnasio</li>
+            <li>16: Laboratorio de sonido y acústica</li>
+            <li>17: Laboratorio de alimentos y bebidas</li>
+            <li>18: Almacén</li>
+            <li>19: Centro de arquitectura y artes</li>
+        </div>
+        <div class="texto">
+            Esta es una de las mesas de trabajo de sistemas de informacion Geografica, hecha por Mauricio Esparza de la carrera Ingenieria en Sistemas Computacionales
+        </div>
+        <style class="texto">
+            
+        </style>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol3-layerswitcher.js"></script>
+        <script src="layers/Punto_2.js"></script><script src="layers/Lineas_3.js"></script><script src="layers/Poligonos_4.js"></script><script src="layers/Poligonos2_5.js"></script>
+        <script src="styles/Punto_2_style.js"></script><script src="styles/Lineas_3_style.js"></script><script src="styles/Poligonos_4_style.js"></script><script src="styles/Poligonos2_5_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/qgis2web.js"></script>
+        <script src="./resources/Autolinker.min.js"></script>
+    </body>
+</html>
