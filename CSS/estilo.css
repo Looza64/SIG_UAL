@@ -5,7 +5,7 @@
     overflow-x: hidden;
 }
 body{
-    background-image: url("../Images/x2.jpg");
+    background-image: url("../IMG/x2.jpg");
 }
 
 .todo{
@@ -140,7 +140,7 @@ body{
 }
 
 .todo .header .icono{
-    background-image: url("../Images/Icono_sig.png");
+    background-image: url("../IMG/Icono_sig.png");
     width: 150px;
     height: 100px;
     background-size: contain;
@@ -304,7 +304,7 @@ body{
 }
 .todo .info_ual .logo{
     grid-area: a;
-    background-image: url(../Images/logo-ual.png);
+    background-image: url(../IMG/logo-ual.png);
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 5px;
